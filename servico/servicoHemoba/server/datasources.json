@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDS": {
+    "name": "accountDS",
+    "connector": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "hemoba",
+    "username": "root",
+    "password": "@!Rakfly12"
+   }
+}
