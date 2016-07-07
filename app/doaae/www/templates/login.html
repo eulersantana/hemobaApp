@@ -1,0 +1,29 @@
+<ion-view view-title="" >
+
+  <ion-content class="padding">
+      <div class="logo"></div>
+      <div class="list list-inset">
+          <label class="item item-input">
+              <input type="text" placeholder="Username" ng-model="data.username">
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="Password" ng-model="data.password">
+          </label>
+      </div>
+      <button class="button button-block button-calm" ng-click="login()">Login</button>
+
+      <div class="col">
+        <div class="row">
+            <button class="button button-full blue_face col" ><span class="icon-left ion-social-facebook"> <b>Entrar</b> </span></button>
+        </div>
+        <div class="row">
+            <button class="button button-full _face col" ><span class="icon-left ion-person-add"> <b>Cadastro</b> </span></button>
+        </div>
+
+        <div class="row">
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+      </div>
+  </ion-content>
+
+</ion-view>
